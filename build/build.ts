@@ -34,7 +34,7 @@ function transformGrammarRepository(grammar: TmGrammar, propertyNames: string[],
     }
 }
 
-function getLuaGrammar(getVariables: (tsGrammarVariables: MapLike<string>) => MapLike<string>) {
+function getLuaGrammar(getVariables: (luaGrammarVariables: MapLike<string>) => MapLike<string>) {
     const luaGrammarBeforeTransformation = readJson('lua.tmLanguage.json') as TmGrammar;
     return updateGrammarVariables(luaGrammarBeforeTransformation, getVariables(luaGrammarBeforeTransformation.variables as MapLike<string>));
 }
