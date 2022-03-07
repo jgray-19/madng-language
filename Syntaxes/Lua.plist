@@ -282,7 +282,13 @@
         <key>match</key>
         <string>\b([a-zA-Z_][a-zA-Z0-9_]*)\b(?=\s*\??:)</string>
         <key>name</key>
-        <string>support.type.property-name.lua</string>
+        <string>entity.name.class.lua</string>
+      </dict>
+      <dict>
+        <key>match</key>
+        <string>(?&lt;=[^.]\.|:)\b([a-zA-Z_][a-zA-Z0-9_]*)</string>
+        <key>name</key>
+        <string>entity.other.attribute.lua</string>
       </dict>
       <dict>
         <key>match</key>
