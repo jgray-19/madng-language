@@ -1,10 +1,5 @@
-# License
+This project mainly provides the default `Lua` grammar for `VSCode`. If you have any troubles or suggestions, please feel free to open issues.
 
-If not otherwise specified (see below), files in this repository fall under the following license:
-
-	Permission to copy, use, modify, sell and distribute this
-	software is granted. This software is provided "as is" without
-	express or implied warranty, and with no claim as to its
-	suitability for any purpose.
-
-An exception is made for files in readable text which contain their own license information, or files where an accompanying file exists (in the same directory) with a “-license” suffix added to the base-name name of the original file, and an extension of txt, html, or similar. For example “tidy” is accompanied by “tidy-license.txt”.
+## Change to VSCode
+Due to the version release rules of VSCode, changes may take a longer period to enter VSCode.  
+Until then you can temporarily install this extension to apply the latest changes: https://marketplace.visualstudio.com/items?itemName=sumneko.lua-grammar
