@@ -181,12 +181,16 @@
 			"name": "entity.name.class.lua"
 		},
 		{
-			"match": "(?<=[^.]\\.|:)\\b([a-zA-Z_][a-zA-Z0-9_]*)",
+			"match": "(?<=[^.]\\.|:)\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b(?!\\s*=\\s*\\b(function)\\b)",
 			"name": "entity.other.attribute.lua"
 		},
 		{
-			"match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b",
+			"match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b(?!\\s*=\\s*\\b(function)\\b)",
 			"name": "variable.other.lua"
+		},
+		{
+			"match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b(?=\\s*=\\s*\\b(function)\\b)",
+			"name": "entity.name.function.lua"
 		},
 		{
 			"match": "\\+|-|%|#|\\*|\\/|\\^|==?|~=|!=|<=?|>=?|(?<!\\.)\\.{2}(?!\\.)",
