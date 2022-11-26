@@ -492,6 +492,23 @@
 					]
 				},
 				{
+					"begin": "(?<=---\\s*)(@operator)\\s*(\\b[a-z]+)?",
+					"beginCaptures": {
+						"1": {
+							"name": "storage.type.annotation.lua"
+						},
+						"2":{
+							"name":"support.function.library.lua"
+						}
+					},
+					"end": "(?=[\\n@#])",
+					"patterns": [
+						{
+							"include": "#luadoc.type"
+						}
+					]
+				},
+				{
 					"begin": "(?<=---\\s*)@cast",
 					"beginCaptures": {
 						"0": {
