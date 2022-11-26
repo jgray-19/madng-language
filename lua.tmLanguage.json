@@ -433,6 +433,26 @@
 					]
 				},
 				{
+					"begin": "(?<=---\\s*)@enum",
+					"beginCaptures": {
+						"0": {
+							"name": "storage.type.annotation.lua"
+						}
+					},
+					"end": "(?=[\\n@#])",
+					"patterns": [
+						{
+							"begin": "\\b([a-zA-Z_\\*][a-zA-Z0-9_\\.\\*\\-]*)",
+							"beginCaptures": {
+								"0": {
+									"name": "variable.lua"
+								}
+							},
+							"end": "(?=\\n)"
+						}
+					]
+				},
+				{
 					"begin": "(?<=---\\s*)@type",
 					"beginCaptures": {
 						"0": {
@@ -625,6 +645,33 @@
 				},
 				{
 					"begin": "(?<=---\\s*)@meta",
+					"beginCaptures": {
+						"0": {
+							"name": "storage.type.annotation.lua"
+						}
+					},
+					"end": "(?=[\\n@#])"
+				},
+				{
+					"begin": "(?<=---\\s*)@private",
+					"beginCaptures": {
+						"0": {
+							"name": "storage.type.annotation.lua"
+						}
+					},
+					"end": "(?=[\\n@#])"
+				},
+				{
+					"begin": "(?<=---\\s*)@protected",
+					"beginCaptures": {
+						"0": {
+							"name": "storage.type.annotation.lua"
+						}
+					},
+					"end": "(?=[\\n@#])"
+				},
+				{
+					"begin": "(?<=---\\s*)@package",
 					"beginCaptures": {
 						"0": {
 							"name": "storage.type.annotation.lua"
