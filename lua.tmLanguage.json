@@ -482,7 +482,7 @@
 									"name": "variable.lua"
 								}
 							},
-							"end": "(?=\\n)",
+							"end": "(?=[\\n#])",
 							"patterns": [
 								{
 									"include": "#luadoc.type"
@@ -527,11 +527,11 @@
 							"end": "(?=\\n)",
 							"patterns": [
 								{
-									"match": "([+-|])",
-									"name": "keyword.operator.lua"
+									"include": "#luadoc.type"
 								},
 								{
-									"include": "#luadoc.type"
+									"match": "([+-|])",
+									"name": "keyword.operator.lua"
 								}
 							]
 						}
@@ -556,7 +556,7 @@
 									"name": "keyword.operator.lua"
 								}
 							},
-							"end": "(?=\\n)",
+							"end": "(?=[\\n#])",
 							"patterns": [
 								{
 									"include": "#luadoc.type"
@@ -602,7 +602,7 @@
 									"name": "keyword.operator.lua"
 								}
 							},
-							"end": "(?=\\n)",
+							"end": "(?=[\\n#])",
 							"patterns": [
 								{
 									"include": "#string"
