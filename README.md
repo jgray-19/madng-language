@@ -1,5 +1,3 @@
-This project mainly provides the default `Lua` grammar for `VSCode`. If you have any troubles or suggestions, please feel free to open issues.
+This project is essentially a copy of the default `Lua` grammar for `VSCode`. This is forked from https://github.com/sumneko/lua.tmbundle and only adds `!` as a comment.
 
-## Change to VSCode
-Due to the version release rules of VSCode, changes may take a longer period to enter VSCode.  
-Until then you can temporarily install this extension to apply the latest changes: https://marketplace.visualstudio.com/items?itemName=sumneko.lua-grammar
+This makes the extension useful for people intending to use MAD-NG with VS code.
