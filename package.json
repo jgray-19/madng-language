@@ -1,8 +1,20 @@
 {
-    "name": "lua-tmlanguage",
-    "version": "1.0.0",
-    "main": "build/build.js",
-    "dependencies": {
-        "plist": "latest"
-    }
+    "name": "mad-tmlanguage",
+    "displayName": "mad",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "contributes": {
+        "languages": [{
+          "id": "mad",
+          "aliases": ["mad"],
+          "extensions": [".mad"]
+        }],
+        "grammars": [{
+          "language": "mad",
+          "scopeName": "source.mad",
+          "path": "./syntaxes/mad.tmLanguage.json"
+        }]
+      }
 }
