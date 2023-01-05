@@ -16,5 +16,9 @@
           "scopeName": "source.mad",
           "path": "./syntaxes/mad.tmLanguage.json"
         }]
-      }
+      },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jgray-19/madng-language.git"
+    }
 }
