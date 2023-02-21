@@ -79,11 +79,11 @@
 			"name": "constant.numeric.integer.hexadecimal.mad"
 		},
 		{
-			"match": "(?<![\\w\\d.])\\d+(\\.\\d+)?([eE]-?\\d*)?",
+			"match": "(?<![\\w\\d.](?<!\\.\\.))\\d+(\\.\\d+)?([eE]-?\\d*)?",
 			"name": "constant.numeric.float.mad"
 		},
 		{
-			"match": "(?<![\\w\\d.])\\d+(?![pPeE.0-9])",
+			"match": "(?<![\\w\\d.](?<!\\.\\.))\\d+(?![pPeE.0-9](?<!\\.\\.))",
 			"name": "constant.numeric.integer.mad"
 		},
 		{
