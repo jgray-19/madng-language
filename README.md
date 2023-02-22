@@ -15,3 +15,7 @@ The icon has been taken from the [MAD github](https://github.com/MethodicalAccel
 # Installation
 
 Available at the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=jgray-19.mad-tmlanguage)
+
+# Issues and Improvements
+
+Please feel free to open an [issue](https://github.com/jgray-19/madng-language/issues) on the [GitHub](https://github.com/jgray-19/madng-language) if you have any feature requests, bugs/problems or suggestions for improvement.
