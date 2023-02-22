@@ -4,8 +4,14 @@ This project is essentially a copy of the default `Lua` grammar for `VSCode`. Th
 
 The language configuration for MAD-NG has been directly copied from https://github.com/microsoft/vscode/blob/main/extensions/lua/language-configuration.json at this [commit](https://github.com/microsoft/vscode/commit/e9bb8b306c94be2d66ec64f2da186e58399a08fd)
 
+The icon has been taken from the [MAD github](https://github.com/MethodicalAcceleratorDesign) logo
+
 # Changes for MAD-NG
 
 - Adds `!` as a comment
 - Allows 1..2 and 1.0..2.0 to be highlighted as integers and floats respectively
 - Adds a tab indentation after the syntax \a, b, c => 
+
+# Installation
+
+Available at the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=jgray-19.mad-tmlanguage)
