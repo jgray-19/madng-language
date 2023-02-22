@@ -1,9 +1,12 @@
 {
     "name": "mad-tmlanguage",
-    "displayName": "MAD-NG Language Extension",
+    "displayName": "MAD-NG Language",
     "version": "0.0.3",
     "license": "MIT",
     "publisher": "jgray-19",
+    "description": "MAD-NG Language Support",
+    "categories": ["Formatters"],
+    "icon": "icons/icon.png",
     "engines": {
         "vscode": "^1.74.0"
     },
