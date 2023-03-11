@@ -1,0 +1,15 @@
+{
+    "scopeName": "vlac.injection",
+    "injectionSelector": "L:meta.embedded.mad",
+    "patterns": [
+        {
+            "include": "#vlac"
+        }
+    ],
+    "repository": {
+        "vlac": {
+            "match": "(\\?(?!:))",
+            "name": "keyword.operator.vla"
+        }
+    }
+}
