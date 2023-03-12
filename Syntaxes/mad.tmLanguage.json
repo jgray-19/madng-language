@@ -153,6 +153,10 @@
 			"name": "constant.language.mad"
 		},
 		{
+			"match": "(?<![^.]\\.|:)\\b(MAD\\.constant\\.(alphaem|amass|clight|deg2rad|deumass|e|emass|eps|epsilon0|eradius|hbar|huge|inf|ln10|ln2|lnpi|log10e|log2e|minang|minlen|minstr|mu0|mumass|nan|nmass|one_pi|one_sqrtpi|pi|pi_2|pi_4|pmass|qelect|rad2deg|sqrt1_2|sqrt1_3|sqrt2|sqrt3|sqrtpi|tiny|two_pi|two_sqrtpi|twopi|umass)?)",
+			"name": "constant.language.mad"
+		},
+		{
 			"match": "(?<![^.]\\.|:)\\b(self)\\b",
 			"name": "variable.language.self.mad"
 		},
