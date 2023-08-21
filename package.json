@@ -1,7 +1,7 @@
 {
     "name": "mad-tmlanguage",
     "displayName": "MAD-NG Language",
-    "version": "0.0.6",
+    "version": "0.1.0",
     "license": "MIT",
     "publisher": "jgray-19",
     "description": "MAD-NG Language Support",
@@ -42,6 +42,16 @@
                 "injectTo": [
                     "source.mad"
                 ]
+            },
+            {
+                "scopeName": "pymadng.injection",
+                "path": "Syntaxes/pymadng-injection.json",
+                "injectTo": [
+                    "source.python"
+                ],
+                "embeddedLanguages": {
+                    "meta.embedded.mad": "mad"
+                }
             }
         ]
     },

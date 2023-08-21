@@ -1,0 +1,23 @@
+{
+	"fileTypes": [
+		"py"
+	  ],
+	"scopeName": "pymadng.injection",
+	"injectionSelector": "L:string.quoted.multi.python",
+	"patterns": [
+		{
+			"begin": "((\\!|--)\\b(start|begin|startmad|start-mad|beginmad|begin-mad)$)",
+			"captues": {
+				"1": {
+					"name": "comment.line.shebang.mad"
+				}
+			},
+			"end": "((\\!|--)\\b(stop|end|stopmad|stop-mad|endmad|end-mad)$)",
+			"patterns": [
+				{
+					"include": "source.mad"
+				}
+			]
+		}
+	]
+}
