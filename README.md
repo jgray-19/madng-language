@@ -12,6 +12,7 @@ The icon has been taken from the [MAD github](https://github.com/MethodicalAccel
 - Allows `1..2` and `1.0..2.0` to be highlighted as integers and floats respectively
 - Adds a tab indentation after the syntax `\a, b, c =>`
 - Fixes bug in embedded c code, allowing for the use of variable length arrays (vla). See this [issue](https://github.com/microsoft/vscode/issues/176126)
+- Adds MAD-NG language injection to python strings, i.e. when using pymadng, your code can be highlighted correctly, not as a string.
 
 # Installation
 
