@@ -58,8 +58,5 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/jgray-19/madng-language.git"
-    },
-    "dependencies": {
-        "node.js": "0.0.1-security"
     }
 }
